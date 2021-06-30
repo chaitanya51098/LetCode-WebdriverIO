@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d5fbba7b81309759",
+  "name" : "should go to workspace page and verify header",
+  "time" : {
+    "start" : 1625035565147,
+    "stop" : 1625035578549,
+    "duration" : 13402
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27152cb788872157",
+  "name" : "Should go to main page and verify title",
+  "time" : {
+    "start" : 1625035565070,
+    "stop" : 1625035565127,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8234dfdd2d297cdf",
+  "name" : "should go to form page fill details and click on submit",
+  "time" : {
+    "start" : 1625035578552,
+    "stop" : 1625035582164,
+    "duration" : 3612
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

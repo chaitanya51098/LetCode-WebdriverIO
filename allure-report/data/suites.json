@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Let code Page",
+    "children" : [ {
+      "name" : "Should go to main page and verify title",
+      "uid" : "27152cb788872157",
+      "parentUid" : "6faf39130fd0691174d3d2416b46973c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625035565070,
+        "stop" : 1625035565127,
+        "duration" : 57
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should go to workspace page and verify header",
+      "uid" : "d5fbba7b81309759",
+      "parentUid" : "6faf39130fd0691174d3d2416b46973c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625035565147,
+        "stop" : 1625035578549,
+        "duration" : 13402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should go to form page fill details and click on submit",
+      "uid" : "8234dfdd2d297cdf",
+      "parentUid" : "6faf39130fd0691174d3d2416b46973c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625035578552,
+        "stop" : 1625035582164,
+        "duration" : 3612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "6faf39130fd0691174d3d2416b46973c"
+  } ]
+}

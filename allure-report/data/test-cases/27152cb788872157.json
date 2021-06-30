@@ -1,0 +1,141 @@
+{
+  "uid" : "27152cb788872157",
+  "name" : "Should go to main page and verify title",
+  "fullName" : "Let code Page.Should go to main page and verify title",
+  "historyId" : "dfb1c56280168d8013b90e7ae6ba75de",
+  "time" : {
+    "start" : 1625035565070,
+    "stop" : 1625035565127,
+    "duration" : 57
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1625035565084,
+        "stop" : 0,
+        "duration" : -1625035565084
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1625035565094,
+          "stop" : 0,
+          "duration" : -1625035565094
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1625035565117,
+            "stop" : 0,
+            "duration" : -1625035565117
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "be62375464d9904b",
+            "name" : "Request",
+            "source" : "be62375464d9904b.json",
+            "type" : "application/json",
+            "size" : 43
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "c16284bd4b788e0b",
+          "name" : "Request",
+          "source" : "c16284bd4b788e0b.json",
+          "type" : "application/json",
+          "size" : 58
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Let code Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Let code Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to main page and verify title"
+  }, {
+    "name" : "package",
+    "value" : "Let code Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a9b0eb25367c738b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625035522933,
+        "stop" : 1625035522981,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "2da2574cad3df8aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625035413397,
+        "stop" : 1625035413449,
+        "duration" : 52
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27152cb788872157.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

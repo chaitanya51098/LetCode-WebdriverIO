@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`//h1[@class=\"title\"]`) to have text containing\n                \n                Expected: \"Automation Engineer 123\"\n                Received: \"Welcome Automation Engineer\"",
+      "children" : [ {
+        "name" : "should go to workspace page and verify header",
+        "uid" : "d5fbba7b81309759",
+        "parentUid" : "12dad7f061ce4165ff5d46678971202b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625035565147,
+          "stop" : 1625035578549,
+          "duration" : 13402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.114" ]
+      } ],
+      "uid" : "12dad7f061ce4165ff5d46678971202b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

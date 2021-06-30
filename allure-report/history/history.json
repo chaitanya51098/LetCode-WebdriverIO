@@ -1,0 +1,60 @@
+{
+  "2e8bcab217b82eb1664858e968c1c9d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5fbba7b81309759",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//h1[@class=\"title\"]`) to have text containing\n                \n                Expected: \"Automation Engineer 123\"\n                Received: \"Welcome Automation Engineer\"",
+      "time" : {
+        "start" : 1625035565147,
+        "stop" : 1625035578549,
+        "duration" : 13402
+      }
+    } ]
+  },
+  "dfb1c56280168d8013b90e7ae6ba75de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27152cb788872157",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625035565070,
+        "stop" : 1625035565127,
+        "duration" : 57
+      }
+    } ]
+  },
+  "6901dc9e9530a17626317fc92c44d4b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8234dfdd2d297cdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625035578552,
+        "stop" : 1625035582164,
+        "duration" : 3612
+      }
+    } ]
+  }
+}
