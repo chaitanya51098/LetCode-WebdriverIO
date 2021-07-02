@@ -1,0 +1,15 @@
+{
+    "formdata" :{
+
+        "firstname" : "Chaitanya",
+        "lastname" : "Parimi",
+        "email" : "hello@gmail.com",
+        "phNo" : "1234567890",
+        "adr1" : "uppl",
+        "adr2" : "hyd",
+        "state" : "tg",
+        "pincode" : "500098",
+        "date" : "29/06/2021"
+
+    }
+}

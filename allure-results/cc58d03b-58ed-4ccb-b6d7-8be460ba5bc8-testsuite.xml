@@ -1,0 +1,185 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625210013755' stop='1625210017316'>
+    <name>Let code Page</name>
+    <title>Let code Page</title>
+    <test-cases>
+        <test-case start='1625210013756' status='broken' stop='1625210013797'>
+            <name>Should go to main page and verify title</name>
+            <title>Should go to main page and verify title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps>
+                <step start='1625210013762' status='broken' stop='1625210013796'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1625210013767' status='broken' stop='1625210013796'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='253f060d-7e63-42f4-8472-ba9d7cb725f4-attachment.json' type='application/json' size='43'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TITLE is not defined</message>
+                <stack-trace>ReferenceError: TITLE is not defined
+                    at Context.&lt;anonymous> (C:\WebdriverIO\letcode\test\specs\test.js:9:43)
+                    at Context.executeAsync (C:\WebdriverIO\letcode\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (C:\WebdriverIO\letcode\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625210013804' status='broken' stop='1625210016773'>
+            <name>should go to workspace page and verify header</name>
+            <title>should go to workspace page and verify header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps>
+                <step start='1625210013814' status='passed' stop='1625210014034'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='29c69fb3-f24c-4536-b3f9-c74ba4403392-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Screenshot' source='8b9b72d8-37ce-4b16-b97f-9124b4cf1461-attachment.png' type='image/png' size='6551'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625210016689' status='passed' stop='1625210016707'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='ce8e35d8-af1b-4efc-aff9-0659bc758564-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='6dfb2f77-f0a8-4356-8169-57ab46d29174-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625210016707' status='passed' stop='1625210016728'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='26180adc-7258-484f-af09-250e6b8a02a2-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='6ae7df67-68ab-4b44-ae12-59bbdd5b9378-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625210016729' status='passed' stop='1625210016760'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='db5f350c-8340-4fa6-8e08-66cbb4ced9ec-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='4aad5381-6193-4ed5-b5f8-7fd9e3175ad4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625210016765' status='broken' stop='1625210016773'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8572b9ef-bf48-43d2-ba88-e8f98927cb3d-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1625210016770' status='broken' stop='1625210016773'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1625210016773' status='undefined'>
+                    <name>POST /session/:sessionId/element/6d4e0ab6-9405-4d3f-a513-cd8dc7d3dca2/click</name>
+                    <title>POST /session/:sessionId/element/6d4e0ab6-9405-4d3f-a513-cd8dc7d3dca2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='6be716bc-6682-4b35-9b14-79d24b41c3da-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>HEADER is not defined</message>
+                <stack-trace>ReferenceError: HEADER is not defined
+                    at Context.&lt;anonymous> (C:\WebdriverIO\letcode\test\specs\test.js:15:67)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Context.executeAsync (C:\WebdriverIO\letcode\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at async Context.testFrameworkFnWrapper (C:\WebdriverIO\letcode\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625210016778' status='broken' stop='1625210017314'>
+            <name>should go to form page fill details and click on submit</name>
+            <title>should go to form page fill details and click on submit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps>
+                <step start='1625210016779' status='passed' stop='1625210016817'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c3aec926-159f-4bf3-be82-8389a5c1fc40-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='ca58b59a-5f5c-4e7b-8577-86d69050de0d-attachment.json' type='application/json' size='1001'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625210017269' status='broken' stop='1625210017314'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='80257517-6bfc-4b86-80eb-e6c70655e072-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps>
+                        <step start='1625210017273' status='passed' stop='1625210017307'>
+                            <name>POST /session/:sessionId/element/72a991a9-34ec-4a98-9000-622580e23f95/click</name>
+                            <title>POST /session/:sessionId/element/72a991a9-34ec-4a98-9000-622580e23f95/click</title>
+                            <attachments>
+                                <attachment title='Response' source='93c6560f-dcb7-4be7-9779-1f1922db0658-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1625210017312' status='broken' stop='1625210017314'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='63672302-e6af-4ab2-9e39-747915cadb25-attachment.png' type='image/png' size='130094'/>
+                <attachment title='Response' source='b27e19ff-9dc0-44d5-9720-3d954b37526a-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>FORM_HEADER is not defined</message>
+                <stack-trace>ReferenceError: FORM_HEADER is not defined
+                    at Context.&lt;anonymous> (C:\WebdriverIO\letcode\test\specs\test.js:21:66)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Context.executeAsync (C:\WebdriverIO\letcode\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at async Context.testFrameworkFnWrapper (C:\WebdriverIO\letcode\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
